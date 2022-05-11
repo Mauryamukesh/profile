@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+    width: 100%;
+    height: 110px;
+    background: #999;
+}
+.profile_container
+{
+    width: 100%;
+    /* height: auto; */
+    background-color: #a53796;
+}
+.image_1
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+} 
+.images
+{
+    width: 80%;
+    height: 70vh;
+    margin-top: 10%;
+}
+.images img
+{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.white_space
+{
+    width: 100%;
+    height: 50vh;
+    margin-top: -4%;
+    background-color: #fff;
+    /* position: relative; */
+}
+.image_2
+{
+    margin-top: -5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+.circle_1
+{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    border-radius: 50%;
+}
+.circle_1 img
+{
+    width: 100%;
+    border-radius: 50%;
+}
+/* -------------  Setting -------------- */
+.right_setting
+{
+    right: 10px;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    margin-top: -10%;
+    width: 15%;
+    /* border: 1px solid red; */
+}
+.btn button
+{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 1px #111 solid;
+    background: linear-gradient(to right, #111, #111);
+    background-repeat: no-repeat;
+    color: #111;
+    background-size: 0 100%;
+    transition: background-size 1s 0s;
+}
+.btn button:hover
+{
+    color: #fff;
+    background-size: 100% 100%;
+}
+.setting
+{
+    width: 20%;
+    margin: auto;
+}
+.setting a
+{
+    text-decoration: none;
+}
+.setting a i
+{
+    font-size: 38px;    
+    color: #111;
+}
+/* ----------Name----------- */
+.name
+{
+    width: 30%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 6%;
+    position: relative;
+}
+.sub_name
+{
+    /* border: 1px solid yellow; */
+}
+.sub_name h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.sub_name p
+{
+    font-family: sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-top: -20px;
+    text-align: right;
+}
+.sub_paragraph
+{
+    width: 100%;
+}
+.sub_paragraph p
+{
+    width: 60%;
+    font-size: 16px;
+    margin: auto;
+    text-align: center;
+    color: #111;
+}
+#learn
+{
+    color: red;
+    cursor: pointer;
+}
+.team_btn
+{
+    margin-top: 5%;
+    display: flex;
+    justify-content: end;
+    margin-right : 20px;
+}
+.team button
+{
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #fff;
+    /* border-radius: 10px; */
+    border: 2px solid rgb(41, 252, 41);
+    background: linear-gradient(to right, rgb(41, 252, 41), rgb(41, 252, 41));
+    background-repeat: no-repeat;
+    color: #111;
+    background-size: 0 100%;
+    transition: background-size 1s 0s;
+}
+.team button:hover
+{
+    color: #fff;
+    background-size: 100% 100%;
+}
+.chat button
+{
+    padding: 5px 15px;
+    font-size: 16px;
+    margin: 0 10px;
+    background-color: #fff;
+    /* border-radius: 10px; */
+    border: 2px solid rgb(255, 12, 12);
+    background: linear-gradient(to right, rgb(255, 12, 12), rgb(255, 12, 12));
+    background-repeat: no-repeat;
+    color: #111;
+    background-size: 0 100%;
+    transition: background-size 1s 0s;
+}
+.chat button:hover
+{
+    color: #fff;
+    background-size: 100% 100%;
+}
+.follow button
+{
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #fff;
+    /* border-radius: 10px; */
+    border: 2px solid rgb(65, 192, 255);
+    background: linear-gradient(to right, rgb(65, 192, 255), rgb(65, 192, 255));
+    background-repeat: no-repeat;
+    color: #111;
+    background-size: 0 100%;
+    transition: background-size 1s 0s;
+}
+.follow button:hover
+{
+    color: #fff;
+    background-size: 100% 100%;
+}
+.bottom
+{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-top: -15px;
+    font-family: sans-serif;
+}
+.following h3
+{
+    text-align: center;
+    font-size: 24px;
+}
+.following p
+{
+    text-align: center;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.following p:hover
+{
+    border-bottom: 3px solid #111;
+}
+.followers h3
+{
+    text-align: center;
+    font-size: 24px;
+}
+.followers p
+{
+    text-align: center;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.followers p:hover
+{
+    border-bottom: 3px solid #111;
+}
+.post h3
+{
+    text-align: center;
+    font-size: 24px;
+}
+.post p
+{
+    text-align: center;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.post p:hover
+{
+    border-bottom: 3px solid #111;
+}
+/* ---------------Technology Followers-------------------- */
+.technology
+{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.col1
+{
+    width: 24%;
+    height: 55%;
+    /* padding-bottom: 5%; */
+    border-radius: 20px;
+    background-color: #fff;
+    font-family: sans-serif;
+    margin: 2%;
+    /* flex: 1 1 30rem */
+    background-color: #fff;
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition:.4s ease-in-out transform,
+    .4s ease-in-out box-shadow;
+    transition-property: transform;
+    box-shadow:1px 1px 0 1px #f9f9fb,
+    -1px 0 28px 0 rgba(5, 5, 12, 0.01),
+    28px 28px 28px 0 rgba(3, 3, 14, 0.25);
+}
+.col1:hover{
+    box-shadow:1px 1px 0 1px #f9f9fb,
+    -1px 0 28px 0 rgba(1, 1, 7, 0.01),
+    54px 54px 28px -10px rgba(2, 2, 17, 0.15);
+    transform: translate3d(10px,-16px,10px);
+}
+.image_3
+{
+    width: 100%;
+    margin: 20px 0;
+}
+.tech_name
+{
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid red; */
+    margin-top: -5%;
+    display: flex;
+    padding: 5px;
+    color: #111;
+    font-weight: bold;
+    justify-content: center;
+}
+.row1
+{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.row1 img
+{
+    width: 100%;
+}
+.tech1
+{
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid green; */
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    margin-top: 30px;
+}
+.tech1 p
+{
+    font-size: 14px;
+}
+#down_1
+{
+    margin-top: 5%;
+}
+#down_1:hover{
+    box-shadow:1px 1px 0 1px #f9f9fb,
+    -1px 0 28px 0 rgba(1, 1, 7, 0.01),
+    54px 54px 28px -10px rgba(2, 2, 17, 0.15);
+    transform: translate3d(10px,16px,10px);
+}
+#down_2
+{
+    margin-top: 5%;
+}
+#down_2:hover{
+    box-shadow:1px 1px 0 1px #f9f9fb,
+    -1px 0 28px 0 rgba(1, 1, 7, 0.01),
+    54px 54px 28px -10px rgba(2, 2, 17, 0.15);
+    transform: translate3d(10px,16px,10px);
+}
